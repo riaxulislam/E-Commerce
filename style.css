@@ -310,11 +310,14 @@ footer p{
 /*Mobile View*/
 @media (max-width:768px){
     .section1 img{
-        height: 170px;
+        height: 150px;
     }
     .section1{
-        left: 38%;
-        top: 30%;
+        left: 55%;
+        top: 40%;
+    }
+    .section1Button{
+        top: 60%;
     }
     .section1Button h1{
         letter-spacing: 16px;
@@ -328,7 +331,7 @@ footer p{
         top: 85px;
     }
     .SearchArea {
-        right: 50px;
+        right: 23px;
         top: 45px;
     }
     .ProductSection {
