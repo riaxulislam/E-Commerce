@@ -306,3 +306,54 @@ footer p{
     text-align: center;
     color: #fff;
 }
+
+/*Mobile View*/
+@media (max-width:768px){
+    .section1 img{
+        height: 170px;
+    }
+    .section1{
+        left: 38%;
+        top: 30%;
+    }
+    .section1Button h1{
+        letter-spacing: 16px;
+    }
+    .section1Button h1, h2{
+        line-height: 25px;
+        font-size: 25px;
+    }
+    .logo {
+        left: 30px;
+        top: 85px;
+    }
+    .SearchArea {
+        right: 50px;
+        top: 45px;
+    }
+    .ProductSection {
+        width: 90%;
+        left: 27px;
+        margin-top: -235px;
+    }
+    .about h4 {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    .aboutbox img {
+        width: 170%;
+    }
+    .notification h1 {
+        font-size: 20px;
+    }
+    .notificationseach {
+    width: 300px;
+    height: 40px;
+    }
+    .notification {
+        width: 108%;
+    }
+    .notibtn {
+        height: 30px;
+    }
+}
